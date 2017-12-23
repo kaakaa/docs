@@ -24,7 +24,7 @@ Existing install directory - *{install-path}*
 Location of your local storage directory
   The local storage directory contains all the files that users have attached to their messages. If you don't know its location, open the System Console and go to **Files > Storage** and read the value in **Local Storage Directory**. Relative paths are relative to the ``mattermost`` directory. For example, if the local storage directory is ``./data/`` then the absolute path is ``{install-path}/mattermost/data``.
 Owner and group of the install directory - *{owner}* and *{group}*
-  Use the ``ls -l {install-path}/mattermost/bin/platform`` command to get the owner and group.
+  Use the `ls` -l {install-path}/mattermost/bin/platform`` command to get the owner and group.
 
 **To upgrade Mattermost Server**:
 
@@ -37,12 +37,12 @@ Owner and group of the install directory - *{owner}* and *{group}*
 
   ``cd ~``
 
-3. Download the latest version of Mattermost Server.
+3. Download `the latest version of Mattermost Server <https://about.mattermost.com/download/>`_. In the following command, replace ``X.X.X`` with the version that you want to download:
 
   Enterprise Edition
-    ``wget https://releases.mattermost.com/4.2.0/mattermost-4.2.0-linux-amd64.tar.gz``
+    ``wget https://releases.mattermost.com/X.X.X/mattermost-X.X.X-linux-amd64.tar.gz``
   Team Edition
-    ``wget https://releases.mattermost.com/4.2.0/mattermost-team-4.2.0-linux-amd64.tar.gz``
+    ``wget https://releases.mattermost.com/X.X.X/mattermost-team-X.X.X-linux-amd64.tar.gz``
 
 4. Extract the Mattermost Server files.
 
